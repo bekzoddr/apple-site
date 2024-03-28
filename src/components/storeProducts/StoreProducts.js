@@ -6,7 +6,7 @@ function StoreProducts() {
   let products = PRODUCTS?.map((el) => (
     <div className="storeItem">
       <img src={el.image} alt="image" className="storeImg" />
-      <h2>{el.title}</h2>
+      <h2 style={{ color: "black" }}>{el.title}</h2>
     </div>
   ));
 
