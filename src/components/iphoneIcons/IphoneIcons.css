@@ -1,0 +1,32 @@
+.Iphone__icons {
+    display: flex;
+    padding: 50px 80px 10px;
+    background-color: white;
+    justify-content: center;
+}
+
+.iphone_icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+}
+
+.iphone_icon img {
+    width: 89px;
+    height: 52px;
+    margin-right: 100px;
+}
+
+.iphone_icon h5 {
+    color: black;
+}
+
+.iphone__info p {
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+.links a{
+    display: flex;
+    align-items: center;
+}
+a button{
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #0d84e5;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s all ease;
+}
+a .linkbtn__active{
+    border: 1px solid #0d84e5;
+    color: #0d84e5;
+    background-color: transparent;
+    font-weight: 100;
+}
+a .linkbtn__active:hover{
+    background-color: #0d84e5;
+    color: white;
+    transition: 0.5s all ease;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-size: cover;
+    background-position: center;
+    padding: 250px;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.herologo{
+   margin-left: 140px;
+}
+h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.banner__info{
+    position: relative;
+    bottom: 150px;
+}

@@ -1,0 +1,33 @@
+.storeItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.storeImg{
+    width: 120px;
+    height: 78px;
+    margin-right: 80px;
+}
+.storeItem h2{
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.storeItem h2:hover{
+    text-decoration: underline;
+}
+.storeProducts{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    padding-top: 100px;
+    margin: 0;
+    gap: 0;
+    
+}
+
+.storeProducts::-webkit-scrollbar{
+    display: none;
+}

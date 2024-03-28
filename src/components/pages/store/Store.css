@@ -1,0 +1,50 @@
+.store__title h1{
+    color: gray;
+    padding-top: 150px;
+    width: 650px;
+}
+h1 span{
+    color: black;
+}
+.fb, .apple{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.store__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feedback{
+    display: flex;
+    column-gap: 20px;
+}
+.feedback.one{
+    margin-right: 90px;
+}
+.feedbacks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding-top: 150px;
+}
+.feedback a{
+    display: flex;
+    align-items: center;
+    color: blue;
+}
+.carousel__title{
+    margin-left: 50px;
+    padding-top: 100px;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: .007em;
+    color: gray;
+    line-height: 1.1428571429;
+}
+.carousel__title span{
+    color: black;
+}

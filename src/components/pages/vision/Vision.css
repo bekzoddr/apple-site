@@ -1,0 +1,64 @@
+.book{
+    background-color: transparent;
+    border:  2px solid white;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+.buyy{
+    background-color: blue;
+        color: white;
+        border-radius: 15px;
+        padding: 5px 15px;
+}
+.vision_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 50px 200px 20px;
+}
+h2{
+    color: aliceblue;
+}
+.visionLinks{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.visionLinks h2{
+    color: white;
+    font-size: 12px;
+    transition: 0.5s all ease;
+}
+.visionLinks h2:hover{
+    color: blue;
+    text-decoration: underline;
+        transition: 0.5s all ease;
+}
+.visionBanner {
+    background-image: url("../../../assets/images/hero_apple_vision_pro_endframe__exabw3uiajee_large.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+a{
+    color: orange;
+    font-size:22px;
+}
+
+.vision__Ban_Info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    
+}
+.visionImg {
+    width: 405px !important;
+    height: 100px;
+
+}

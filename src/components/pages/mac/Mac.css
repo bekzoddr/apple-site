@@ -1,0 +1,32 @@
+.mac{
+    padding-top: 50px;
+}
+.mac__info p{
+    font-size: 15px;
+        line-height: 1.3333733333;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+        color: black;
+        text-align: center;
+}
+.mac__info{
+    padding: 10px 150px;
+    background-color: rgb(245, 245, 247);;
+}
+.mac__title2{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+.mac__title2 h1, .mac__title2 h3{
+    color: black;
+}
+.videoShow{
+    margin-left: auto;
+        margin-right: auto;
+}
+.video{
+    width: 1329px;
+    height: 680px;
+    border-radius: 20px;
+}

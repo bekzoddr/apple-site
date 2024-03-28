@@ -1,0 +1,40 @@
+.Ipad__icons {
+    display: flex;
+    padding: 50px 80px 10px;
+    background-color: black;
+    justify-content: center;
+}
+
+.ipad_icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+}
+
+.ipad_icon img {
+    width: 89px;
+    height: 52px;
+    margin-right: 100px;
+}
+
+.ipad_icon h5 {
+    color: white;
+}
+.ipad_icon h5 span{
+    color: red;
+}
+.ipad__info p {
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: white;
+    text-align: center;
+}
+
+.ipad__info {
+    padding: 10px 150px;
+    background-color: #1d1d1f;
+    ;
+}
